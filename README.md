@@ -20,13 +20,13 @@ Then add **hubot-oncall** to your `external-scripts.json`:
 
 ## Usage
 
-| Command                                                | Description     
-|--------------------------------------------------------|---------------------------------------------------
-| `hubot oncall set <person_a>,<person_b>,..,<person_N>` | Sets the list of persons to feed the oncall roster 
-| `hubot oncall list`                                    | List the current roster of people available for oncall  
-| `hubot oncall now`                                     | Returns who is oncall this week 
-| `hubot oncall next`                                    | Returns who will be oncall next week  
-| `hubot oncall last`                                    | Returns who was oncall last week
+| Command                                   | Description     
+|-------------------------------------------|---------------------------------------------
+| `hubot oncall set <person1>,..,<personN>` | Sets people for the oncall roster
+| `hubot oncall list`                       | List the current roster available for oncall 
+| `hubot oncall now`                        | Returns who is oncall this week 
+| `hubot oncall next`                       | Returns who will be oncall next week  
+| `hubot oncall last`                       | Returns who was oncall last week
 
 For example:
 
