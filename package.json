@@ -1,7 +1,7 @@
 {
   "name": "hubot-oncall",
   "description": "This project tells you who is oncall on the current week and automatically rotates given a defined roster",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Juan Pablo Ortiz <pablasso@gmail.com>",
   "license": "MIT",
 
