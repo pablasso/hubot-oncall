@@ -27,7 +27,7 @@ class OnCallRoster
     today = new Date
     date = new Date(today.getFullYear(), today.getMonth(), today.getDate() + offset)
     onejan = new Date(date.getFullYear(), 0, 1)
-    Math.ceil((((date - onejan) / 86400000) + onejan.getDay() + 1) / 7)
+    Math.floor((((date - onejan) / 86400000) + onejan.getDay() + 1) / 7)
 
   getDayOfWeek: (weekNumber, dayNumber) ->
     year = (new Date).getFullYear()
