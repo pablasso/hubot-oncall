@@ -1,23 +1,23 @@
 {
-  "name": "hubot-reddit",
-  "description": "Reddit integration with Hubot",
+  "name": "hubot-oncall",
+  "description", "This project tells you who is oncall on the current week and automatically rotates given a defined roster",
   "version": "0.0.1",
-  "author": "Enrique Vidal <enrique@cloverinteractive.com>",
+  "author": "Juan Pablo Ortiz <pablasso@gmail.com>",
   "license": "MIT",
 
   "keywords": [
     "hubot",
     "hubot-scripts",
-    "reddit"
+    "oncall"
   ],
 
   "repository": {
     "type": "git",
-    "url": "git://github.com/pablasso/hubot-reddit.git"
+    "url": "git://github.com/pablasso/hubot-oncall.git"
   },
 
   "bugs": {
-    "url": "https://github.com/pablasso/hubot-reddit/issues"
+    "url": "https://github.com/pablasso/hubot-oncall/issues"
   },
 
   "dependencies": {
